@@ -4,5 +4,12 @@
     "api/login.js": {
       "runtime": "nodejs18.x"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/api/login",
+      "methods": ["POST"],
+      "dest": "/api/login.js"
+    }
+  ]
 }
